@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.gis',
     'mapa1.apps.Mapa1Config',
 ]
 
@@ -65,7 +66,7 @@ WSGI_APPLICATION = 'GeoRefDjngo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'GeoRefDjngo',
         'USER': 'postgres',
         'PASSWORD': '1234',
