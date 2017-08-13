@@ -5,3 +5,7 @@ from django.shortcuts import render
 
 def mainn(request):
     return render(request, 'mapa1/pag1.html', {})
+
+
+def segundapag(request):
+    return render(request, 'mapa1/pag1.html', {})
