@@ -67,9 +67,9 @@ WSGI_APPLICATION = 'GeoRefDjngo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'GeoRefDjngo',
+        'NAME': 'GeoDb1',
         'USER': 'postgres',
-        'PASSWORD': '1234',
+        'PASSWORD': 'bazinga',
         'HOST': 'localhost',
         'PORT': '5432',
     }
